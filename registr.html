@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>ProSub — Регистрация</title>
+    <link rel="stylesheet" href="css/obshiy.css">
+    <link rel="stylesheet" href="css/vhod-registr.css">
+</head>
+<body>
+
+<div class="shapka">
+   <div class="logo"> <a href="vhod.html">ProSub</a></div>
+    <div class="menu">
+        <a href="vhod.html">Вход</a>
+        <a href="registr.html" class="active">Регистрация</a>
+    </div>
+</div>
+
+<div class="kontent">
+    <div class="hero">
+        <div class="forma-registratsii">
+            <h2 class="forma-zagolovok">Создать аккаунт</h2>
+            <p class="forma-podzagolovok">Зарегистрируйтесь, чтобы начать пользоваться сервисом</p>
+
+            <form action = "glav.html">
+                <div class="pole-group">
+                    <label class="pole-label">Имя</label>
+                    <input type="text" class="pole-vvoda" placeholder="Ваше имя" required>
+                </div>
+                <div class="pole-group">
+                    <label class="pole-label">Email</label>
+                    <input type="email" class="pole-vvoda" placeholder="your@email.com" required>
+                </div>
+                <div class="pole-group">
+                    <label class="pole-label">Пароль</label>
+                    <input type="password" class="pole-vvoda" placeholder="Минимум 8 символов" required>
+                </div>
+                <div class="pole-group">
+                    <label class="pole-label">Подтвердите пароль</label>
+                    <input type="password" class="pole-vvoda" placeholder="Повторите пароль" required>
+                </div>
+
+                <div class="checkbox-group">
+                    <input type="checkbox" id="soglasie" required>
+                    <label>Согласен с <a href="terms.txt">условиями</a></label>
+                </div>
+
+                <button type="submit" class="knopka">Зарегистрироваться</button>
+            </form>
+
+            <div class="dopolnitelno">
+                Уже есть аккаунт? <a href="vhod.html">Войти</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="podval">
+    <p>© 2026 ProSub. Все права защищены.</p>
+    <ul class="podval-links">
+        <li><a href="privacy.txt">Политика конфиденциальности</a></li>
+        <li><a href="terms.txt">Усовия спользования</a></li>
+    </ul>
+</div>
+
+</body>
+</html>

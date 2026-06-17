@@ -1,0 +1,75 @@
+.hero {
+    background: linear-gradient(135deg, #f90 0%, black 100%);
+    color: white;
+    padding: 90px 40px;
+    text-align: center;
+    border-radius: 12px;
+    margin-bottom: 50px;
+}
+
+.hero h1 {
+    font-size: 52px;
+    margin-bottom: 24px;
+}
+
+.hero p {
+    font-size: 22px;
+    margin-bottom: 35px;
+}
+
+.sektsiya-zagolovok {
+    text-align: center;
+    color: #f90;
+    font-size: 38px;
+    margin: 50px 0 30px;
+}
+
+
+.kartochki-blok {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin: 40px 0;
+}
+
+.kartochka {
+    background: black;
+    padding: 32px;
+    border-radius: 12px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.kartochka:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 15px 35px #f90;
+}
+
+.kartochka h3 {
+    color: #f90;
+    margin-bottom: 18px;
+    font-size: 26px;
+}
+
+.kartochka p {
+    color: #f90;
+}
+
+
+.preimushchestva {
+    background: black;
+    padding: 50px 40px;
+    border-radius: 12px;
+    margin: 50px 0;
+    text-align: center;
+}
+
+.preimushchestva ul {
+    list-style: none;
+    font-size: 20px;
+    color: #f90;
+}
+
+.preimushchestva li {
+    margin: 12px 0;
+}

@@ -1,0 +1,38 @@
+.katalog-zagolovok {
+    text-align: center;
+    color: #f90;
+    font-size: 44px;
+    margin-bottom: 50px;
+}
+
+.katalog-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 28px;
+}
+
+.po-kartochka {
+    background: black;
+    padding: 32px 20px;
+    border-radius: 12px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.po-kartochka:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 15px 35px #f90;
+}
+
+.po-kartochka h3 {
+    color: #f90;
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+.cena {
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+    margin: 18px 0 20px;
+}

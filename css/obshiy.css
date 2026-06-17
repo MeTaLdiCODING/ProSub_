@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.7;
+    background: gray;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.shapka {
+    background: black;
+    height: 80px;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #f90;
+}
+.logo a {
+    font-size: 28px;
+    font-weight: bold;
+    color: #f90;
+	text-decoration:none;
+}
+
+.menu {
+    display: flex;
+    gap: 8px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.menu a:hover {
+    background: #f90;
+    color: black;
+}
+
+.menu a.active {
+    background: #f90;
+    color: black;
+    font-weight: bold;
+}
+
+.kontent {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.podval {
+    background: black;
+    color: #f90;
+    text-align: center;
+    padding: 30px;
+    margin-top: auto;
+}
+
+.podval p {
+    margin-bottom: 12px;
+}
+
+.podval-links {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    list-style: none;
+}
+
+.podval-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.podval-links a:hover {
+    text-decoration: underline;
+}
+
+.knopka {
+    background: #f90;
+    color: black;
+    padding: 14px 32px;
+    border-radius: 6px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    display: block;
+    margin: 0 auto; 
+    max-width: 260px;
+	text-decoration:none;
+}
+
+.knopka:hover {
+    background: white;
+    transform: translateY(-4px);
+    box-shadow: 0px 16px 20px rgba(255, 153, 0, 0.5);
+}

@@ -1,0 +1,78 @@
+.kontakty-zagolovok {
+    text-align: center;
+    color: #f90;
+    font-size: 44px;
+    margin-bottom: 50px;
+}
+
+.kontakty-setka {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin-bottom: 60px;
+}
+
+.kontakty-info {
+    background: black;
+    padding: 40px;
+    border-radius: 12px;
+}
+
+.kontakt-punkt {
+    margin-bottom: 28px;
+}
+
+.kontakt-punkt h3 {
+    color: #f90;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.kontakt-punkt p {
+    font-size: 17px;
+    color: #ddd;
+    margin: 6px 0;
+}
+
+.kontakty-forma {
+    background: black;
+    padding: 40px;
+    border-radius: 12px;
+}
+
+.kontakty-forma h2 {
+    color: #f90;
+    margin-bottom: 28px;
+    text-align: center;
+}
+
+.pole-vvoda,
+.tekstovoe-pole {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 18px;
+    border: 2px solid #444;
+    border-radius: 6px;
+    background: #222;
+    color: white;
+    font-size: 16px;
+}
+
+
+.tekstovoe-pole {
+    min-height: 140px;
+    resize: vertical;
+}
+
+.karta-blok {
+    background: black;
+    padding: 40px;
+    border-radius: 12px;
+    margin-top: 40px;
+}
+
+.karta-blok h2 {
+    color: #f90;
+    margin-bottom: 24px;
+    text-align: center;
+}
