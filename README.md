@@ -40,7 +40,7 @@ text## Быстрый запуск
 
 ## Ссылки
 
-- **Рабочая версия сайта**: [https://824f15c6.prosub.pages.dev](https://824f15c6.prosub.pages.dev)
+- **Рабочая версия сайта**: https://db458e60.prosub2.pages.dev/
 - **QR-код на сайт** (для презентации)![Uploading frame (2).png…]()
 
 
