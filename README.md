@@ -23,7 +23,7 @@
 ## Быстрый запуск
 
 ### Вариант 1: Через установщик (рекомендуется)
-1. Скачайте [`ProSub Installer.msi`](./installer/ProSub_%20Installer.msi)
+1. Скачайте [`ProSub Installer.msi`](./installer/ProSub_%20Installator.msi)
 2. Запустите файл и следуйте инструкциям установщика
 3. На рабочем столе появится ярлык «ProSub - Запустить сайт»
 
